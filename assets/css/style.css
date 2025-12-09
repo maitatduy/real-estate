@@ -40,6 +40,14 @@ a {
   color: #ffffff;
   text-align: center;
 }
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  overflow: hidden;
+  line-clamp: var(--line-clamp, 2);
+}
 /* End Commons */
 
 /* Header */
@@ -249,3 +257,113 @@ a {
   line-height: 1;
 }
 /* End Guides */
+/* Featured */
+.featured {
+  margin-top: 12rem;
+  padding: 11rem 0;
+  background-color: #f5fafe;
+}
+
+.featured .sub-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  list-style: 1;
+  color: #000339;
+}
+
+.featured .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.featured .desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  list-style: 1.875;
+  color: #5a6473;
+}
+
+.featured .link {
+  display: flex;
+  align-items: center;
+}
+
+.featured .link span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #0689ff;
+}
+
+.featured .link i {
+  margin-left: 0.8em;
+  color: #0689ff;
+  font-size: 1.4rem;
+}
+
+.featured .list {
+  display: flex;
+  gap: 3rem;
+  margin-top: 7rem;
+}
+
+.featured .list .item {
+  flex: 1;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.featured .list .item .thumb {
+  width: 100%;
+  height: 22.7rem;
+  object-fit: cover;
+}
+
+.featured .list .item .body {
+  box-shadow: 0 6.5rem 8rem -4.6rem #e2eef9;
+  background-color: #ffffff;
+  padding: 1.7rem 2rem 2.4rem 2rem;
+}
+
+.featured .list .item .title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1;
+  color: #000339;
+}
+
+.featured .list .item .desc {
+  --line-clamp: 3;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #a3a6ab;
+  margin-top: 1.1rem;
+  word-break: break-all;
+}
+
+.featured .list .item .info {
+  margin-top: 2.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.featured .list .item .icon {
+  margin-left: 2.3rem;
+}
+
+.featured .list .item .icon:first-child {
+  margin-left: 0;
+}
+
+.featured .list .item .label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: 1%;
+  text-align: center;
+  color: #4d4d52;
+  margin-left: 0.8rem;
+}
+/* End Featured */
