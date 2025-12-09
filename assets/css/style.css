@@ -46,6 +46,7 @@ a {
 .header {
   background-color: #e6f0ff;
   position: relative;
+  height: 100vh;
 }
 
 .navbar {
