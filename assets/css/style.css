@@ -130,3 +130,37 @@ a {
   bottom: 0;
 }
 /* End Header */
+
+/* Clients */
+.clients {
+  margin-top: 12.2rem;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .row .stars i {
+  color: #ffca56;
+  font-size: 2rem;
+}
+
+.clients .row .desc {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #7d8589;
+}
+
+.clients .row.row-desc {
+  margin-top: 2.3rem;
+}
+
+.clients .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9.6rem;
+}
+/* End Clients */
