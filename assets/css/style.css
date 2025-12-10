@@ -56,7 +56,15 @@ a {
 /* End Commons */
 
 /* Header */
-.header {
+.fix-header {
+  background-color: #e6f0ff;
+  padding-top: 2.6rem;
+  position: sticky;
+  top: -2.6rem;
+  z-index: 9999;
+}
+
+.hero-wrap {
   background-color: #e6f0ff;
   position: relative;
   height: 100vh;
@@ -65,7 +73,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 3.8rem;
+  padding: 1.2rem 0;
 }
 
 .navbar ul {
@@ -96,7 +104,7 @@ a {
 }
 
 .hero {
-  margin-top: 13rem;
+  padding-top: 13rem;
 }
 
 .hero .info {
