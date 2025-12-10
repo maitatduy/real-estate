@@ -39,6 +39,11 @@ a {
   font-size: 1.4rem;
   color: #ffffff;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 .line-clamp {
